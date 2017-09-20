@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2591E5F82DE40FE6394238F6 /* Pods_horoscopeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04760F0FD33BE20D6C07A673 /* Pods_horoscopeUITests.framework */; };
 		682A6E721F72D95800141BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E711F72D95800141BB7 /* AppDelegate.swift */; };
-		682A6E741F72D95800141BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E731F72D95800141BB7 /* ViewController.swift */; };
+		682A6E741F72D95800141BB7 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E731F72D95800141BB7 /* SignViewController.swift */; };
 		682A6E771F72D95800141BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A6E751F72D95800141BB7 /* Main.storyboard */; };
 		682A6E7A1F72D95800141BB7 /* horoscope.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E781F72D95800141BB7 /* horoscope.xcdatamodeld */; };
 		682A6E7C1F72D95800141BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682A6E7B1F72D95800141BB7 /* Assets.xcassets */; };
 		682A6E7F1F72D95800141BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A6E7D1F72D95800141BB7 /* LaunchScreen.storyboard */; };
 		682A6E8A1F72D95800141BB7 /* horoscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E891F72D95800141BB7 /* horoscopeTests.swift */; };
 		682A6E951F72D95800141BB7 /* horoscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E941F72D95800141BB7 /* horoscopeUITests.swift */; };
+		682A6EA31F72DB5B00141BB7 /* HoroscopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6EA21F72DB5B00141BB7 /* HoroscopeModel.swift */; };
+		A701024C0FE7C38EC864A92A /* Pods_horoscopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B201E05AC661970008EF64 /* Pods_horoscopeTests.framework */; };
+		E130914EFDB18825C45C9152 /* Pods_horoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7CEC2C45E9F396558A2F5E /* Pods_horoscope.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04760F0FD33BE20D6C07A673 /* Pods_horoscopeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscopeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7CEC2C45E9F396558A2F5E /* Pods_horoscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56966969E1860811682B1376 /* Pods-horoscopeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscopeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscopeTests/Pods-horoscopeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3EF5B8108B6AF6240E9B74 /* Pods-horoscopeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscopeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscopeUITests/Pods-horoscopeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66797B104BD3C550DDFED6D1 /* Pods-horoscopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscopeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscopeTests/Pods-horoscopeTests.release.xcconfig"; sourceTree = "<group>"; };
 		682A6E6E1F72D95800141BB7 /* horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A6E711F72D95800141BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		682A6E731F72D95800141BB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		682A6E731F72D95800141BB7 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		682A6E761F72D95800141BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		682A6E791F72D95800141BB7 /* horoscope.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = horoscope.xcdatamodel; sourceTree = "<group>"; };
 		682A6E7B1F72D95800141BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		682A6E901F72D95800141BB7 /* horoscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horoscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A6E941F72D95800141BB7 /* horoscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horoscopeUITests.swift; sourceTree = "<group>"; };
 		682A6E961F72D95800141BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682A6EA21F72DB5B00141BB7 /* HoroscopeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeModel.swift; sourceTree = "<group>"; };
+		6BABA7475654D1AF8AC815D0 /* Pods-horoscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B201E05AC661970008EF64 /* Pods_horoscopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50FF82A3207FD890118A6E4 /* Pods-horoscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.release.xcconfig"; sourceTree = "<group>"; };
+		EE524A06EB102649AA295D7D /* Pods-horoscopeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscopeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscopeUITests/Pods-horoscopeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E130914EFDB18825C45C9152 /* Pods_horoscope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A701024C0FE7C38EC864A92A /* Pods_horoscopeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2591E5F82DE40FE6394238F6 /* Pods_horoscopeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19FF3FB9558791AE241B0AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E7CEC2C45E9F396558A2F5E /* Pods_horoscope.framework */,
+				A8B201E05AC661970008EF64 /* Pods_horoscopeTests.framework */,
+				04760F0FD33BE20D6C07A673 /* Pods_horoscopeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FC4660CF9D8BAAAD74E6F93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BABA7475654D1AF8AC815D0 /* Pods-horoscope.debug.xcconfig */,
+				D50FF82A3207FD890118A6E4 /* Pods-horoscope.release.xcconfig */,
+				56966969E1860811682B1376 /* Pods-horoscopeTests.debug.xcconfig */,
+				66797B104BD3C550DDFED6D1 /* Pods-horoscopeTests.release.xcconfig */,
+				EE524A06EB102649AA295D7D /* Pods-horoscopeUITests.debug.xcconfig */,
+				5F3EF5B8108B6AF6240E9B74 /* Pods-horoscopeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		682A6E651F72D95800141BB7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				682A6E881F72D95800141BB7 /* horoscopeTests */,
 				682A6E931F72D95800141BB7 /* horoscopeUITests */,
 				682A6E6F1F72D95800141BB7 /* Products */,
+				4FC4660CF9D8BAAAD74E6F93 /* Pods */,
+				19FF3FB9558791AE241B0AF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +142,12 @@
 			isa = PBXGroup;
 			children = (
 				682A6E711F72D95800141BB7 /* AppDelegate.swift */,
-				682A6E731F72D95800141BB7 /* ViewController.swift */,
+				682A6E731F72D95800141BB7 /* SignViewController.swift */,
 				682A6E751F72D95800141BB7 /* Main.storyboard */,
 				682A6E7B1F72D95800141BB7 /* Assets.xcassets */,
 				682A6E7D1F72D95800141BB7 /* LaunchScreen.storyboard */,
 				682A6E801F72D95800141BB7 /* Info.plist */,
+				682A6EA21F72DB5B00141BB7 /* HoroscopeModel.swift */,
 				682A6E781F72D95800141BB7 /* horoscope.xcdatamodeld */,
 			);
 			path = horoscope;
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A6E991F72D95800141BB7 /* Build configuration list for PBXNativeTarget "horoscope" */;
 			buildPhases = (
+				5EDE8F78B23B705796FE2593 /* [CP] Check Pods Manifest.lock */,
 				682A6E6A1F72D95800141BB7 /* Sources */,
 				682A6E6B1F72D95800141BB7 /* Frameworks */,
 				682A6E6C1F72D95800141BB7 /* Resources */,
+				5DFA35CD6670DA10F5108E01 /* [CP] Embed Pods Frameworks */,
+				0B2D266AC40E49ABF227C518 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A6E9C1F72D95800141BB7 /* Build configuration list for PBXNativeTarget "horoscopeTests" */;
 			buildPhases = (
+				5B7B85F6147C05D2F3CAF142 /* [CP] Check Pods Manifest.lock */,
 				682A6E811F72D95800141BB7 /* Sources */,
 				682A6E821F72D95800141BB7 /* Frameworks */,
 				682A6E831F72D95800141BB7 /* Resources */,
+				22DE85F77369B4A49BDE219D /* [CP] Embed Pods Frameworks */,
+				9324F979BDD12387943450FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A6E9F1F72D95800141BB7 /* Build configuration list for PBXNativeTarget "horoscopeUITests" */;
 			buildPhases = (
+				97C35F2976527E265F2CD50B /* [CP] Check Pods Manifest.lock */,
 				682A6E8C1F72D95800141BB7 /* Sources */,
 				682A6E8D1F72D95800141BB7 /* Frameworks */,
 				682A6E8E1F72D95800141BB7 /* Resources */,
+				0AD55CFEC01C71A906701ABE /* [CP] Embed Pods Frameworks */,
+				8EA9D2E0B75268A29A1FF0F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +309,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AD55CFEC01C71A906701ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscopeUITests/Pods-horoscopeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B2D266AC40E49ABF227C518 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscope/Pods-horoscope-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22DE85F77369B4A49BDE219D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscopeTests/Pods-horoscopeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7B85F6147C05D2F3CAF142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horoscopeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFA35CD6670DA10F5108E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-horoscope/Pods-horoscope-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscope/Pods-horoscope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EDE8F78B23B705796FE2593 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horoscope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA9D2E0B75268A29A1FF0F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscopeUITests/Pods-horoscopeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9324F979BDD12387943450FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-horoscopeTests/Pods-horoscopeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C35F2976527E265F2CD50B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horoscopeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		682A6E6A1F72D95800141BB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A6E741F72D95800141BB7 /* ViewController.swift in Sources */,
+				682A6E741F72D95800141BB7 /* SignViewController.swift in Sources */,
 				682A6E7A1F72D95800141BB7 /* horoscope.xcdatamodeld in Sources */,
+				682A6EA31F72DB5B00141BB7 /* HoroscopeModel.swift in Sources */,
 				682A6E721F72D95800141BB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +619,7 @@
 		};
 		682A6E9A1F72D95800141BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BABA7475654D1AF8AC815D0 /* Pods-horoscope.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = horoscope/Info.plist;
@@ -428,6 +632,7 @@
 		};
 		682A6E9B1F72D95800141BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50FF82A3207FD890118A6E4 /* Pods-horoscope.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = horoscope/Info.plist;
@@ -440,6 +645,7 @@
 		};
 		682A6E9D1F72D95800141BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56966969E1860811682B1376 /* Pods-horoscopeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +660,7 @@
 		};
 		682A6E9E1F72D95800141BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66797B104BD3C550DDFED6D1 /* Pods-horoscopeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +675,7 @@
 		};
 		682A6EA01F72D95800141BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE524A06EB102649AA295D7D /* Pods-horoscopeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = horoscopeUITests/Info.plist;
@@ -481,6 +689,7 @@
 		};
 		682A6EA11F72D95800141BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3EF5B8108B6AF6240E9B74 /* Pods-horoscopeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = horoscopeUITests/Info.plist;
@@ -511,6 +720,7 @@
 				682A6E9B1F72D95800141BB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		682A6E9C1F72D95800141BB7 /* Build configuration list for PBXNativeTarget "horoscopeTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +729,7 @@
 				682A6E9E1F72D95800141BB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		682A6E9F1F72D95800141BB7 /* Build configuration list for PBXNativeTarget "horoscopeUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +738,7 @@
 				682A6EA11F72D95800141BB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

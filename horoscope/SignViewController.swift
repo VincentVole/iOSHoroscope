@@ -9,7 +9,7 @@
 import UIKit
 import SwiftyJSON
 
-class ViewController: UIViewController {
+class SignViewController: UITableViewController {
     
     @IBAction func accessApi(_ sender: UIButton) {
         HoroscopeModel.getToday(completionHandler: {

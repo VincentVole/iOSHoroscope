@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-horoscope.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-horoscopeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-horoscopeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>21FF287F563AEEE7B0DAFA53F8888CF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3125348F5375EE65E0EEBAF1E0B56EC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67DF473B54807D0AD06E005CA0526669</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C621B12045DE20FDED81E1C625595E8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
