@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2591E5F82DE40FE6394238F6 /* Pods_horoscopeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04760F0FD33BE20D6C07A673 /* Pods_horoscopeUITests.framework */; };
 		682A6E721F72D95800141BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E711F72D95800141BB7 /* AppDelegate.swift */; };
-		682A6E741F72D95800141BB7 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E731F72D95800141BB7 /* SignViewController.swift */; };
 		682A6E771F72D95800141BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A6E751F72D95800141BB7 /* Main.storyboard */; };
 		682A6E7A1F72D95800141BB7 /* horoscope.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E781F72D95800141BB7 /* horoscope.xcdatamodeld */; };
 		682A6E7C1F72D95800141BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682A6E7B1F72D95800141BB7 /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		682A6E8A1F72D95800141BB7 /* horoscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E891F72D95800141BB7 /* horoscopeTests.swift */; };
 		682A6E951F72D95800141BB7 /* horoscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6E941F72D95800141BB7 /* horoscopeUITests.swift */; };
 		682A6EA31F72DB5B00141BB7 /* HoroscopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6EA21F72DB5B00141BB7 /* HoroscopeModel.swift */; };
+		682A6EA51F72E8D600141BB7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6EA41F72E8D600141BB7 /* InfoViewController.swift */; };
+		682A6EA71F73076500141BB7 /* SignTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A6EA61F73076500141BB7 /* SignTableViewController.swift */; };
 		A701024C0FE7C38EC864A92A /* Pods_horoscopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B201E05AC661970008EF64 /* Pods_horoscopeTests.framework */; };
 		E130914EFDB18825C45C9152 /* Pods_horoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7CEC2C45E9F396558A2F5E /* Pods_horoscope.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,6 @@
 		66797B104BD3C550DDFED6D1 /* Pods-horoscopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscopeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscopeTests/Pods-horoscopeTests.release.xcconfig"; sourceTree = "<group>"; };
 		682A6E6E1F72D95800141BB7 /* horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A6E711F72D95800141BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		682A6E731F72D95800141BB7 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		682A6E761F72D95800141BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		682A6E791F72D95800141BB7 /* horoscope.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = horoscope.xcdatamodel; sourceTree = "<group>"; };
 		682A6E7B1F72D95800141BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		682A6E941F72D95800141BB7 /* horoscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horoscopeUITests.swift; sourceTree = "<group>"; };
 		682A6E961F72D95800141BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		682A6EA21F72DB5B00141BB7 /* HoroscopeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeModel.swift; sourceTree = "<group>"; };
+		682A6EA41F72E8D600141BB7 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		682A6EA61F73076500141BB7 /* SignTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignTableViewController.swift; sourceTree = "<group>"; };
 		6BABA7475654D1AF8AC815D0 /* Pods-horoscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.debug.xcconfig"; sourceTree = "<group>"; };
 		A8B201E05AC661970008EF64 /* Pods_horoscopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50FF82A3207FD890118A6E4 /* Pods-horoscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,8 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				682A6E711F72D95800141BB7 /* AppDelegate.swift */,
-				682A6E731F72D95800141BB7 /* SignViewController.swift */,
+				682A6EA61F73076500141BB7 /* SignTableViewController.swift */,
 				682A6E751F72D95800141BB7 /* Main.storyboard */,
+				682A6EA41F72E8D600141BB7 /* InfoViewController.swift */,
 				682A6E7B1F72D95800141BB7 /* Assets.xcassets */,
 				682A6E7D1F72D95800141BB7 /* LaunchScreen.storyboard */,
 				682A6E801F72D95800141BB7 /* Info.plist */,
@@ -464,10 +467,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A6E741F72D95800141BB7 /* SignViewController.swift in Sources */,
 				682A6E7A1F72D95800141BB7 /* horoscope.xcdatamodeld in Sources */,
+				682A6EA71F73076500141BB7 /* SignTableViewController.swift in Sources */,
 				682A6EA31F72DB5B00141BB7 /* HoroscopeModel.swift in Sources */,
 				682A6E721F72D95800141BB7 /* AppDelegate.swift in Sources */,
+				682A6EA51F72E8D600141BB7 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

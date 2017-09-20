@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5yA-QL-Es0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sign View Controller-->
+        <!--Sign Table View Controller-->
         <scene sceneID="NXW-A0-pck">
             <objects>
-                <tableViewController id="4aY-Rc-Bxh" customClass="SignViewController" customModule="horoscope" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="4aY-Rc-Bxh" customClass="SignTableViewController" customModule="horoscope" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sty-tw-LYk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,17 +35,17 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="mjc-53-rGw"/>
                     <connections>
-                        <segue destination="hjq-fR-I3T" kind="show" id="5lV-6v-0W1"/>
+                        <segue destination="hjq-fR-I3T" kind="show" identifier="ToDetails" id="5lV-6v-0W1"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRN-VX-gmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.79999999999995" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="VxC-O6-WIc">
             <objects>
-                <viewController id="hjq-fR-I3T" sceneMemberID="viewController">
+                <viewController id="hjq-fR-I3T" customClass="InfoViewController" customModule="horoscope" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iFz-Bw-utg"/>
                         <viewControllerLayoutGuide type="bottom" id="uXe-58-hIS"/>
@@ -58,15 +59,53 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem id="iuG-K1-Hmz"/>
-                                    <tabBarItem title="Item" id="pUF-8H-LGz"/>
-                                    <tabBarItem title="Item" id="LT5-8h-ucr"/>
-                                    <tabBarItem id="iBz-15-WZq"/>
+                                    <tabBarItem title="Today" id="iuG-K1-Hmz"/>
+                                    <tabBarItem title="Week" id="pUF-8H-LGz"/>
+                                    <tabBarItem title="Month" id="LT5-8h-ucr"/>
+                                    <tabBarItem title="Year" id="iBz-15-WZq"/>
                                 </items>
                             </tabBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cty-4Z-DWC">
+                                <rect key="frame" x="16" y="108.5" width="343" height="450"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="e8r-Ch-yOK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjd-1g-yVf">
+                                <rect key="frame" x="187" y="80" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKf-ki-SFX">
+                                <rect key="frame" x="187.5" y="72" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kKf-ki-SFX" firstAttribute="centerX" secondItem="Hcy-Ic-O3j" secondAttribute="centerX" id="95L-Gk-KbL"/>
+                            <constraint firstItem="Cty-4Z-DWC" firstAttribute="leading" secondItem="Hcy-Ic-O3j" secondAttribute="leadingMargin" id="CBg-9T-PcN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cty-4Z-DWC" secondAttribute="trailing" id="EN3-1X-cXu"/>
+                            <constraint firstItem="gjd-1g-yVf" firstAttribute="centerX" secondItem="Hcy-Ic-O3j" secondAttribute="centerX" id="WSe-Go-eOx"/>
+                            <constraint firstItem="gjd-1g-yVf" firstAttribute="top" secondItem="kKf-ki-SFX" secondAttribute="bottom" constant="8" symbolic="YES" id="Y0F-wg-Zpl"/>
+                            <constraint firstItem="Cty-4Z-DWC" firstAttribute="centerX" secondItem="Hcy-Ic-O3j" secondAttribute="centerX" id="Ys3-xl-srv"/>
+                            <constraint firstItem="kKf-ki-SFX" firstAttribute="top" secondItem="iFz-Bw-utg" secondAttribute="bottom" constant="8" symbolic="YES" id="nZZ-ng-EgS"/>
+                            <constraint firstItem="Cty-4Z-DWC" firstAttribute="centerY" secondItem="Hcy-Ic-O3j" secondAttribute="centerY" id="wp6-TT-RfO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="kKf-ki-SFX" id="dGc-GN-wIW"/>
+                        <outlet property="horoscopeLabel" destination="Cty-4Z-DWC" id="Tl0-8Q-aCp"/>
+                        <outlet property="signLabel" destination="gjd-1g-yVf" id="Dtr-mT-rTo"/>
+                        <outlet property="tabBar" destination="oa2-YT-mzW" id="y8c-2x-CBw"/>
+                        <outlet property="todayButton" destination="iuG-K1-Hmz" id="Fos-kZ-EZ1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q7K-4m-Bl1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

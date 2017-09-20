@@ -10,9 +10,9 @@ import Foundation
 
 import Foundation
 class HoroscopeModel {
-    static func getToday(completionHandler:@escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
+    static func getHoroscope(sign: String, timeFrame: String, completionHandler:@escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
         // Specify the url that we will be sending the GET Request to
-        let url = URL(string: "http://horoscope-api.herokuapp.com/horoscope/today/libra")
+        let url = URL(string: "http://horoscope-api.herokuapp.com/horoscope/\(timeFrame)/\(sign)")
         // Create a URLSession to handle the request tasks
         let session = URLSession.shared
         // Create a "data task" which will request some data from a URL and then run the completion handler that we are passing into the getToday function itself
