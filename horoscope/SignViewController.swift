@@ -7,8 +7,18 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
+    
+    @IBAction func accessApi(_ sender: UIButton) {
+        HoroscopeModel.getToday(completionHandler: {
+            data, response, error in
+            let result = JSON(data!)
+            print(result)
+            print(result["horoscope"])
+        })
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
