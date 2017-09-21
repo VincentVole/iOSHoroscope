@@ -33,6 +33,14 @@ class SignTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        
+        
+//        var str = "12345"
+//        
+////         print(str.substring(to: 3))
+//        let index = str.index(str.startIndex, offsetBy: 0)
+//        print(str.substring(to: index))
     }
 
     override func didReceiveMemoryWarning() {

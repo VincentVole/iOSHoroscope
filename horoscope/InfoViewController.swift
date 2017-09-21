@@ -60,6 +60,11 @@ class InfoViewController: UIViewController, UITabBarDelegate {
             }
         })
     }
+    
+    
+    func stripString(str: String){
+        
+    }
 
     /*
     // MARK: - Navigation
@@ -70,5 +75,7 @@ class InfoViewController: UIViewController, UITabBarDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }
